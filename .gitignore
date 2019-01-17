@@ -2,3 +2,5 @@
 /**/target/
 
 /**/*.iml
+
+/instance.txt
