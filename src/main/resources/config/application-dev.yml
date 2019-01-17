@@ -1,0 +1,8 @@
+docker:
+  launcher:
+    name: docker-launcher-dev
+    compose-location: ./dev/docker-compose.yaml
+    services:
+      monitoring:
+        active: true
+        check-rate: 1000
